@@ -1,0 +1,61 @@
+.topPage{
+    max-width: 1800px;
+    max-height: 600px;
+    height:400px;
+    padding: 10px;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(69, 155, 149);
+    border-style: solid;
+    border-color: rgb(250, 245, 239);
+    border-width: 20px;
+    color: rgb(233, 221, 207) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/*need to figure out how to move right*/
+.tableRow{
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(233, 221, 207) ;
+}
+
+.listEducation{
+    display: table-cell;
+   margin-left: 70%;
+   height: 100px;
+    position:relative;
+    padding: 5px;
+    float: left;
+    margin: 30px;
+    border-style: solid;
+    color: rgb(69,155,149) ; 
+    background-color: rgb(250,245,239);
+    z-index: 1;
+    
+}
+.listCompanies{
+   
+    margin: 10px;
+    color: rgb(69,155,149) ; 
+    background-color: rgb(250,245,239);
+}
+.sideBySide1{
+            width:400px;
+            height:800px;
+            position: fixed;
+            top: 70%;
+            left: 40%;
+            margin-top: 100px;
+            margin-left: -100px;
+            font-size: large;
+            color: rgb(69,155,149);
+}
+a:link{
+    color:rgb(181, 163, 142);
+}
+a:visited{
+    color:rgb(69,155,149);
+}
